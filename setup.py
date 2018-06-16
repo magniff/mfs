@@ -9,6 +9,7 @@ setuptools.setup(
     platforms=["unix"],
     author="magniff",
     url="https://github.com/magniff/mfs",
+    install_requires=["fusepy",],
     packages=["mfs",],
     zip_safe=False,
 )
